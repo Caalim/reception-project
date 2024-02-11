@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ...........header............. */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 2px solid black;
+    margin: 0px 100px;
+}
+
+.image img{
+    width: 300px;
+    height: 100px;
+    margin: 0px 100px 0px 0px;
+}
+
+.title{
+    margin: 0px 0px 0px 150px;
+    text-align: center;
+}
+
+/* .........tables.............. */
+
+.tables{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7px;
+    /* border-bottom: 2px solid black; */
+    margin: 0px 100px;
+    padding-bottom: 20px;
+}
+
+.table table ,tr, th, td{
+    padding: 0px 40px;
+}
+
+.table td{
+    font-size: 16px;
+    font-weight: bolder;
+    
+}
+
+.colonm table{
+    border-collapse: collapse;
+}
+
+.colonm{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 0px 100px;
+}
+
+.colonm th{
+    padding: 8px 40px;
+    text-align: left;
+}
+
+.colonm td{
+    border-top: 2px solid black;
+    padding: 5px 40px;
+}
+
+.center h2{
+      margin: 40px;
+      text-align: center;
+}
+
+
+.tan h3{
+    text-align: center;
+    color: blue;
+    border-bottom: 3px dotted black;
+    padding-bottom: 10px;
+    margin: 0px 100px;
+}
+
+.tan span{
+    color: red;
+}
+
+.hoos{
+    text-align: center;
+    margin: 15px 0px 30px 0px;
+}
+
+.hoos img{
+    width: 12px;
+    height: 10px;
+    margin: 0px 5px;
+    align-items: center;
+}

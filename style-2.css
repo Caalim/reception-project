@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ...........header............. */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 2px solid black;
+    margin: 0px 100px;
+}
+
+.image img{
+    width: 300px;
+    height: 100px;
+    margin: 0px 100px 0px 0px;
+}
+
+.swr img{
+    width: 50px;
+}
+
+.title{
+    width: 40px;
+    margin: 0px 0px 0px 150px;
+    text-align: center;
+}
+
+.num{
+    margin-left: 100px;
+}
+
+.tables{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+
+.table table ,tr, th, td{
+    padding: 3px 40px;
+}
+
+#boder{
+    border: 1px solid green;
+    border-radius:100px;
+    text-align: center;
+}
+
+
+.two-line table{
+    border-collapse: collapse ;
+}
+
+.two-line{
+     margin: 0px 150px;
+}
+
+.two-line th{
+    border-bottom: 2px solid black;
+    font-size: 12px;
+    padding: 5px 70px;
+    text-align: left;
+}
+
+.two-line td{
+    border-bottom: 2px solid black;
+    padding: 5px 70px;
+}
+
+.fanance{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.left h2{
+    text-align: center;
+    width: 230px;
+    border-bottom: 2px solid black;
+    padding-bottom: 13px;
+}
+
+.rigth{
+    padding-top: 40px;
+}
+
+.rigth th,td{
+    padding: 3px 15px;
+    font-weight: bolder;
+    color: rgb(79, 77, 77);
+}
+
+.rigth th{
+    text-align:left;
+}
+
+.rigth h5{
+    width: 190px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 100px;
+    padding: 2px 0px;
+    margin-top: 10px;
+}
+
+.rigth h4{
+    padding-top: 10px;
+    color: gray;
+}
+
+
+.hoos{
+    border-top: 3px dotted black;
+    margin: 0px 100px;
+}
+.hoos h5{
+    text-align: center;
+    margin: 15px 0px 30px 0px;
+}
+
+.hoos img{
+    width: 12px;
+    height: 10px;
+    margin: 0px 5px;
+    align-items: center;
+}
